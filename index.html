@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Omni - A Virtual Assistant</title>
-	<link rel="icon" href="other/chat.png" type="image/x-icon" />
+	<link rel="icon" href="chat.png" type="image/x-icon" />
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,21 +15,21 @@
 		<div class="md-content">
 			<h3>Settings</h3>
 			<button class="md-close button2">
-        <img class="icon" src="other/close.svg"/>
+❌
       </button>
       <div>
-          <p>Hey Omni: <img class="warning" src="other/warning.svg" title="Work in Progress"/></p>
+          <p>Hey Omni: <img class="warning" src="warning.svg" title="Work in Progress"/></p>
           <label class="switch">
             <input type="checkbox" id="checkbox" onclick="checkbox()">
             <span class="slider round"></span>
           </label>
-          <p>User Language: <img class="warning" src="other/warning.svg" title="Only English is Supported"/></p>
+          <p>User Language: <img class="warning" src="warning.svg" title="Only English is Supported"/></p>
           <select id="select_language" onchange="updateCountry()"></select>
           <p>User Dialect:</p> 
           <select id="select_dialect"></select>
           <p>
           <hr>
-          <p>Omni Voice: <img class="warning" src="other/warning.svg" title="Only English is Supported"/></p>
+          <p>Omni Voice: <img class="warning" src="warning.svg" title="Only English is Supported"/></p>
           <select id="voiceSelect"></select>
           <p>Omni Volume:</p>
           <input id="volume" type="range" min="0" max="1" value="1" step="0.1">
@@ -47,7 +47,7 @@
   </div>
 
   <button class="md-trigger button2" data-modal="modal-1">
-    <img class="icon" src="other/setting.svg"/>
+    <img class="icon" src="setting.svg"/>
   </button>
   <h1 id="title">Omni</h1>
   <h1 id="subtitle">A Virtual Assistant</h1>
@@ -56,10 +56,10 @@
 
   <div id="recognition">
     <button class="button" onclick="keyboard()">
-      <img class="icon" id="keyboard" src="other/keyboard.svg"/>
+      <img class="icon" id="keyboard" src="keyboard.svg"/>
     </button>
     <button class="button" onclick="voice()">
-      <img class="icon" id="voice" src="other/microphone.svg"/>
+      <img class="icon" id="voice" src="microphone.svg"/>
     </button>
   </div>
 
